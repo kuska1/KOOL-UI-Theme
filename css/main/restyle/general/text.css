@@ -1,0 +1,3 @@
+h1::selection, h2::selection, h3::selection, h4::selection, p::selection, td::selection, label::selection, textarea::selection, input::selection, blockquote::selection, br::selection, bdi::selection, img::selection, div::selection, a::selection, span::selection {
+    background-color: color-mix(in srgb, var(--virtualmenu-bg-hover), transparent 30%) !important;
+}

@@ -1,0 +1,29 @@
+/* Switcher */
+
+/* Off */
+._9Ql-oVe_j8E-vsDdyVdWo.Focusable ._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    transition: 0.13s;
+    transform: translateX(0px);
+    opacity: 0;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.Focusable ._1PQppcgkuXQAiFPar9AGi- {
+    transition: 0.13s;
+    top: 5px;
+    bottom: 5px;
+    left: 6px;
+    width: 12px;
+}
+
+/* On */
+._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS.Focusable ._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS.Focusable ._1PQppcgkuXQAiFPar9AGi- {
+    top: 3px;
+    bottom: 3px;
+    left: 1.5px;
+    width: 16px;
+}

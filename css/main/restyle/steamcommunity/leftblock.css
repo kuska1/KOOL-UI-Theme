@@ -1,0 +1,40 @@
+/* Customizible Block */
+.profile_customization {
+    background: unset !important;
+}
+.profile_customization_block {
+    background: unset !important;
+    transition: 0.3s !important;
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.screenshot_showcase_screenshot {
+    transition: 0.3s !important;
+    border-radius: 8px !important;
+}
+
+/* Block Header */
+.profile_customization_header {
+    transition: 0.3s !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    backdrop-filter: blur(5px) !important;
+    margin: 0 !important;
+}
+
+/* Arts Fix */
+.profile_customization.myart {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+
+/* Achievment Progress */
+.achievement_progress_bar_ctn {
+    box-shadow: unset !important;
+}
+/* .achievement_progress_bar_ctn .progress_bar {
+    background: unset !important;
+    background-color: var(--color-showcase-header) !important;
+} */

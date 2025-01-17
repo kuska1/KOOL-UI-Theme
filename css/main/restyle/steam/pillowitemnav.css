@@ -1,0 +1,18 @@
+@import url("noneitemnav.css");
+
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ {
+    background-color: var(--virtualmenu-bg-hover) !important;
+    border-radius: 10px !important;
+    padding: 0px 8px !important;
+    transition: background-color 0.35s !important;
+}
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ {
+    padding: 2px !important;
+}
+/* last FIX */
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD:last-child {
+    padding-right: 2px !important;
+}
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD:last-child ._19axKcqYRuaJ8vdYKYmtTQ {
+    padding-right: 8px !important;
+}

@@ -1,0 +1,122 @@
+/* Body */
+._1bq4x9pa4-9RLY-dXWUZTp, ._3KDkLoCR8OM8xfdQysKn9t, ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
+    background: unset !important;
+    background-color: rgb(var(--bg-dark)) !important;
+}
+.IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi, .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi:hover {
+    border: unset !important;
+}
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES .edQzwM57P-T5K3eDGkyvZ {
+    background: unset !important;
+}
+._2Nq6ov7A1hGcHXVOXNt_OE {
+    border-top: unset !important;
+}
+
+/* Divider */
+._1CTr1yKRkOXnJ4gSS1-1A3 {
+    background-color: rgb(var(--bg-hover-dark)) !important;
+}
+
+ /* Btns */
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton, ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton {
+    border-radius: 12px !important;
+    transition: .3s !important;
+}
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
+    background-color: rgb(var(--bg-hover-dark)) !important;
+}
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:hover.DialogButton:enabled {
+    background-color: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 30%) !important;
+}
+._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled:active:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
+    border-radius: 12px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 30%) !important;
+}
+/* Launch etc */
+._3ydigb6zZAjJ0JCDgHwSYA {
+    border-radius: 12px !important;
+}
+
+/* Game BG */
+._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z {
+    transition: .2s !important;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd2);
+    /* background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1) !important; */
+    background-size: 300% 300% !important;
+    filter: blur(100px) !important;
+    animation: gradientAnimation 10s infinite !important;
+    opacity: 1 !important;
+    animation-play-state: running;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z:has(._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E.undefined._2NqL3nV35eJFAu56_Yu-WM) {
+    animation-play-state: paused !important;
+}
+
+/* Graphic */
+._1BxZDLT8KveuJzn-1q4NTP ._2-AUyaXfJHWP85tZVENytR svg {
+    mask-image: inherit;
+    -webkit-mask-image: linear-gradient(to right, rgb(var(--bg-dark)) 90%, rgba(14, 20, 27, 0) 100%);
+}
+
+/* Hover Item */
+._1VNuYHM6BPBOJspC6zPf5r {
+    border-radius: 18px !important;
+}
+._1VNuYHM6BPBOJspC6zPf5r:hover {
+    background-color: rgb(var(--bg-hover-dark)) !important;
+}
+._117rQTHH1RIewY7sSlvg3Z ._34F9wkevkmNM4yJfpPQ0GL, ._117rQTHH1RIewY7sSlvg3Z.Sil68-ocRzI8Xeloq3d7R {
+    transition: 0.2s !important;
+}
+
+/* Game Art */
+.WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5:not(._3vi6SfAX2Pp-9TVSjvm5Et) {
+    border-radius: 12px !important;
+}
+
+/* Downloading Hover Tooltip */
+/* Text */
+.My_SveQxVY_oRxfkK5mqN {
+    text-align: center !important;
+}
+/* Remove Downloading Duplicate */
+._1KHOCigl8AaK2eHxQqPMlc ._2RX1dsh68v-P0H9Am9Ufy1 ._2HOH927_SBdi8J559aStH6 {
+    display: none !important;
+}
+._2RX1dsh68v-P0H9Am9Ufy1 {
+    padding-top: 7px !important;
+}
+/* Body */
+._2sGn0cBsD44TjnUIh-lx9d {
+    box-shadow: unset !important;
+    padding-bottom: 10px !important;
+    border-radius: 12px !important;
+    filter: rgb(var(--bg-shadow)) !important;
+}
+
+/* dashes */
+.OINnOU8K5HzPe2nzczpZi {
+    transition: .15s !important;
+    border-radius: 24px !important;
+}
+/* moves */
+._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
+    transition: .15s !important;
+    background: unset !important;
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+.OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo {
+    transition: .15s !important;
+}

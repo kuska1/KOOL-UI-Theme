@@ -1,0 +1,17 @@
+/* Right Block */
+.profile_rightcol {
+    background: unset !important;
+    transition: 0.3s !important;
+    border-radius: 16px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.profile_topfriends .friendBlock {
+    transition: 0.1s !important;
+    border-top-right-radius: 18px !important;
+    border-bottom-right-radius: 18px !important;
+}
+.profile_topfriends .friendBlock:hover {
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(5px) !important;
+}

@@ -1,0 +1,33 @@
+/* Color Accent Text Fix */
+/* Title */
+.eKmEXJCm_lgme24Fp_HWt:has(.colorPicker):not(.Focusable) ._3jMlJm4PQCA8SfNlUR99Fo {
+    visibility: hidden !important;
+}
+.eKmEXJCm_lgme24Fp_HWt:has(.colorPicker):not(.Focusable) ._3jMlJm4PQCA8SfNlUR99Fo::before {
+    visibility: visible !important;
+    content: "Accent Color" !important;
+}
+/* Description */
+.eKmEXJCm_lgme24Fp_HWt:has(.colorPicker):not(.Focusable) ._1W1to_azoBRG95oNAFpf9Q {
+    visibility: hidden !important;
+}
+.eKmEXJCm_lgme24Fp_HWt:has(.colorPicker):not(.Focusable) ._1W1to_azoBRG95oNAFpf9Q::before {
+    visibility: visible !important;
+    content: "Use it with 'Recolor Accent Color'." !important;
+}
+/* Remove Millennium's "Custom Accent Color" */
+.eKmEXJCm_lgme24Fp_HWt:has(.colorPicker):has(.Focusable) ._3jMlJm4PQCA8SfNlUR99Fo {
+    font-size: 0px;
+    visibility: hidden;
+}
+.eKmEXJCm_lgme24Fp_HWt:has(.colorPicker):has(.Focusable) ._3jMlJm4PQCA8SfNlUR99Fo::before {
+    font-size: 14px;
+    visibility: visible;
+    content: "KOOL-UI ❤️ MADE WITH LOVE";
+}
+.eKmEXJCm_lgme24Fp_HWt.Focusable:has(.colorPicker) ._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
+    visibility: hidden;
+}
+.eKmEXJCm_lgme24Fp_HWt.Focusable:has(.colorPicker) .colorPicker {
+    visibility: hidden;
+}

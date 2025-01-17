@@ -1,0 +1,60 @@
+._3few7361SOf4k_YuKCmM62 .DialogHeader.DesktopUI, .DesktopUI ._3few7361SOf4k_YuKCmM62 .DialogHeader {
+    text-align: center;
+}
+
+/* Family */
+._2LyGIHuQ8SFKb5T262YUvg {
+    background-color: rgb(var(--bg-hover-dark)) !important;
+    border-radius: 24px !important;
+}
+/* Switch */
+._2bl0iQ9xigbq4Zd1NI6NZl {
+    filter: var(--bg-shadow) !important;
+}
+/* Second Btn */
+button.DialogButton {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+    filter: var(--bg-shadow) !important;
+}
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+/* Dropdown Btn */
+.DialogDropDown {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+    filter: var(--bg-shadow) !important;
+}
+.DialogDropDown:hover {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+/* Dropdown Fix */
+._1YdRdM9TZ_3Xolwv9aVEv- ._DialogInputContainer {
+    background: transparent !important;
+}
+/* Dropdown List */
+.DialogTextInputBase, ._DialogInputContainer {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-hover-dark)), transparent 7%) !important;
+    backdrop-filter: blur(5px) !important;
+    filter: var(--bg-shadow) !important;
+}
+/* Dropdown Items */
+._2oAiZidGyUxL-hfupFDQ2m {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    color: rgb(var(--text-dark)) !important;    
+}
+._2oAiZidGyUxL-hfupFDQ2m:hover {
+    background: rgb(var(--bg-dark)) !important;
+    color: rgb(var(--text-hover-dark)) !important;
+}
+/* Checkbox */
+.DialogCheckbox {
+    transition: .15s !important;
+    filter: var(--bg-shadow) !important;
+}

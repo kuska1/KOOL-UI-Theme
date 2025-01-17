@@ -1,0 +1,28 @@
+/* Tool Tip  Community, Store, URL, Downloading, Lib */
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B ._2FxbHJzYoH024ko7zqcJOf, .community_tooltip, .store_tooltip, ._3cXgxM5dBuTxGOOYw0lxsP, ._2iiN7AYnLFTRFRiuipiYJz, ._1Ye_0niF2UqB8uQTbm8B6B {
+    border-radius: 7px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(5px) !important;
+    filter: var(--bg-shadow) !important;
+    color: rgb(var(--text-hover-dark)) !important;
+    user-select: none !important;
+     /* pointer-events: none !important; */
+}
+/* Community Rewards Fix */
+.community_tooltip .reaction_award_info .reaction_award_name, .community_tooltip .reaction_award_info .reaction_award_desc {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+/* Downloading */
+._3XGRklQrZMakU2xaYB0cLD {
+    background: unset !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B ._3XGRklQrZMakU2xaYB0cLD._38Kbc0h04V8wdbbGE5yN11 {
+    background: unset !important;
+}
+/* Lib Fix */
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B ._3XGRklQrZMakU2xaYB0cLD {
+    border-radius: 12px !important;
+    box-shadow: unset !important;
+}

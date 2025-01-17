@@ -1,0 +1,37 @@
+/* Popup */
+.popup_block {
+    /* padding: 15px !important; */
+    padding: 3px !important;
+    border-radius: 12px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(10px) !important;
+}
+/* Remove shit */
+.shadow_ul, .shadow_top, .shadow_ur, .shadow_left, .shadow_right, .shadow_bl, .shadow_bottom, .shadow_br {
+    display: none !important;
+    backdrop-filter: unset !important;
+}
+.popup_block .popup_body {
+    border: unset !important;
+    box-shadow: unset !important;
+    border-radius: 12px !important;
+    background: unset !important;
+    /* backdrop-filter: blur(10px) !important; */
+    margin: 0 !important;
+}
+/* Items */
+#profile_action_dropdown .popup_menu_item {
+    font-weight: 500 !important;
+    transition: .15s !important;
+    color: rgb(var(--text-dark)) !important;
+    border-radius: 10px !important;
+}
+#profile_action_dropdown .popup_menu_item:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 30%) !important;
+    filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.25)) !important;
+}
+/* Report Icon Orange -> Gray */
+:has(#profile_action_dropdown .popup_menu_item[onclick*="ReportProfile"]) img[src="https://community.cloudflare.steamstatic.com/public/images/skin_1/notification_icon_flag.png"] {
+    filter: grayscale(100%) !important;
+}

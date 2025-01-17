@@ -1,0 +1,75 @@
+/* Base */
+body.DesktopUI {
+    background: unset !important;
+}
+
+body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    background: unset !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+}
+
+body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n {
+    border: unset !important;
+    box-shadow: unset !important;
+    border-radius: 12px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 7%) !important;
+    backdrop-filter: blur(10px) !important;
+    color: rgb(var(--text-hover-dark)) !important;
+    padding: 6px !important;
+    /* margin: 0 !important; */
+}
+
+/* Items */
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI {
+    transition: .1s !important;
+    padding: 6px 12px !important;
+    font-weight: 500 !important;
+    border-radius: 10px !important;
+    color: rgb(var(--text-dark)) !important;
+}
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+    background-color: rgb(var(--bg-hover-dark)) !important;
+    /* background-color: #161D25 !important; */
+    filter: var(--bg-shadow) !important;
+}
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
+    border: none !important;
+}
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    color: rgb(var(--bg-dark)) !important;
+    background-color: rgb(var(--text-hover-dark)) !important;
+}
+/* Lanuch, etc */
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl {
+    transition: .1s !important;
+    color: rgb(var(--text-hover-dark)) !important;
+}
+
+/* Divider */
+body.DesktopUI ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_,
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8 {
+    transition: .1s !important;
+    width: auto !important;
+    height: 1px !important;
+    margin: 2px 6px !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    background-color: rgb(var(--bg-hover-dark)) !important;
+}
+
+
+/* Hide last Divider from tray menu */
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8:nth-last-child(1) {
+    display: none !important;
+}
+
+/* New Badge */
+/* body.DesktopUI ._3EvKu7VyTGMoDtbyugKQ5H {
+    margin: 0 6px 0 0;
+    padding: 0 6px;
+    border-radius: 8px;
+    background-color: white;
+} */

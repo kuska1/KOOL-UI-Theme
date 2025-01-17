@@ -1,0 +1,4 @@
+.accountData.price {
+	filter: blur(5px);
+	transition: 0.15s linear;
+}

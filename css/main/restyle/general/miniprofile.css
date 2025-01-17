@@ -1,0 +1,31 @@
+/* Mini Profile */
+/* steampowered/steamcommunity, libraryroot */
+.miniprofile_container, ._2_lmTz0tA4NOSle5WaO1PZ ._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B ._2QPdq7GZ_03AD1ioPixVXW {
+    border-radius: 12px !important;
+    filter: rgb(var(--bg-shadow)) !important;
+}
+.shadow_ul, .shadow_top, .shadow_ur, .shadow_left, .shadow_right, .shadow_bl, .shadow_bottom, .shadow_br {
+    display: none !important;
+    backdrop-filter: unset !important;
+}
+/* Shit Blur Fix */
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B:has(div > ._2QPdq7GZ_03AD1ioPixVXW) {
+    backdrop-filter: unset !important;
+    background: unset !important;
+}
+/* Shadow Fix */
+._36eQg-jp1ebbdaE6PBniHu {
+    box-shadow: unset !important;
+    filter: rgb(var(--bg-shadow)) !important;
+}
+/* Game Art */
+._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- .A0XYrZMFUpzFpMU7qBrhJ {
+    border-radius: 6px !important;
+}
+._3_0Qbu8IAsqsv_6W5AxRhe {
+    background: unset !important;
+}
+._1s3b90MDEzWiXAzyEg4vu2 ._2HU_E-2SbIBuGTf-28tVgU {
+    border-radius: 10px !important;
+    border-top-left-radius: 0px !important;
+}

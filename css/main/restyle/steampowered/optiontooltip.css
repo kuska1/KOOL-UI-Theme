@@ -1,0 +1,23 @@
+/* Base, Wishlist */
+.ds_options_tooltip, .F0YMvqVKHkY-.-tV92khCNDs-.Panel {
+    border: unset !important;
+    box-shadow: unset !important;
+    border-radius: 12px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(10px) !important;
+    color: var(--text-hover-dark) !important;
+    padding: 3px !important;
+    margin: 0 !important;
+}
+/* Items */
+.ds_options_tooltip > .option {
+    font-weight: 500 !important;
+    transition: .15s !important;
+    border-radius: 8px !important;
+    color: rgb(var(--text-dark)) !important;
+}
+.ds_options_tooltip > .option:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+    background-color: rgb(var(--bg-hover-dark)) !important;
+    filter: var(--bg-shadow) !important;
+}

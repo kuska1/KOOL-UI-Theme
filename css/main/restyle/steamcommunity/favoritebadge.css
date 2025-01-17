@@ -1,0 +1,14 @@
+/* Favorite Badge */
+.profile_header_badge {
+    background: unset !important;
+}
+.favorite_badge {
+    background: unset !important;
+    transition: 0.3s !important;
+    border-radius: 16px !important;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.favorite_badge:hover {
+    filter: var(--bg-shadow);
+}

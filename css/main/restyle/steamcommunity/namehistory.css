@@ -1,0 +1,22 @@
+/* Also known as */
+.popup_block_new {
+    border: unset !important;
+    box-shadow: unset !important;
+    backdrop-filter: blur(10px) !important;
+    /* box-shadow: 0 0 3px #000000 !important;
+    border-radius: 8px !important; */
+}
+.popup_block_new .popup_body {
+    border: unset !important;
+    box-shadow: unset !important;
+    border-radius: 8px;
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
+    /* backdrop-filter: blur(10px) !important; */
+    color: rgb(var(--text-hover-dark)) !important;
+}
+#NamePopup .popup_menu {
+    padding: 12px !important;
+}
+#NamePopupClearAliases a {
+    transition: 0.1s !important;
+}

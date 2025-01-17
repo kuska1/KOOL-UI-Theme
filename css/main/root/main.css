@@ -1,0 +1,14 @@
+:root {
+    --bg-shadow: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.25));
+
+    --bg-dark: 26, 27, 29;
+    --bg-hover-dark: 43, 44, 46;
+    --text-dark: 156, 156, 156;
+    --text-hover-dark: 255, 255, 255;
+
+    --indicator-offline: 137, 137, 137;
+    --indicator-online: 76, 180, 255;
+    --indicator-away: 76, 145, 172;
+    --indicator-ingame: 140, 214, 29;
+    --indicator-ingame-away: 98, 129, 59;
+}

@@ -1,0 +1,620 @@
+{
+    "name": "KOOL-UI",
+    "author": "flowird",
+    "description": "WIP",
+    "tags": ["kool", "ui", "kool-ui", "koolui"],
+    "version": "1.0.0",
+    "header_image": "https://i.imgur.com/image_here.png",
+    "splash_image": "https://i.imgur.com/image_here.png",
+
+    "github": {
+        "owner": "kuska1",
+        "repo_name": "KOOL-UI-Theme"
+    },
+
+    "Steam-WebKit": "webkit.css",
+    "RootColors": "css/main/root/root.css",
+    "UseDefaultPatches": true,
+
+    "Conditions": { 
+        "Recolor Accent Color": { 
+            "description": "Change Steam's Default Color to your Accent Color.",
+            "default": "yes",
+            "tab": "General",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/recolor.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Remove Header Line": {
+            "description": "Remove Header Line on Steam Focus.",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/steam/hideheaderline.css"
+                    }
+                }
+            }
+        },
+        "Gradient Background Header": { 
+            "description": "Add Gradient Background Header to Modal Dialog.",
+            "default": "yes",
+            "tab": "General",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".ModalDialogPopup"], "src": "css/main/restyle/general/dialoggradient.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Avatar Border Style": { 
+            "description": "Change Avatar Border Style to Square/Squircle/Round.",
+            "default": "Round",
+            "tab": "General",
+            "values": {
+                "Square": {},
+                "Rounded Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/squircleavatars.css"
+                    }
+                },
+                "Round": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/roundavatars.css"
+                    }
+                }
+            }
+        },
+        "Indicator Style": {
+            "description": "Change Avatar Border Style to Square/Squircle/Round.",
+            "default": "Dot",
+            "tab": "General",
+            "values": {
+                "Circle": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/avatarindicatorcircle.css"
+                    }
+                },
+                "Dot": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/avatarindicatoralt.css"
+                    }
+                }
+            }
+        },
+        "Navigation Bar Items": {
+            "description": "Change Navigation Bar Items Style.",
+            "default": "Pillow",
+            "tab": "Navigation",
+            "values": {
+                "None": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/main/restyle/steam/noneitemnav.css"
+					}
+				},
+                "Underline": {},
+                "Square": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/main/restyle/steam/squareitemnav.css"
+					}
+				},
+                "Pillow": {
+				    "TargetCss": { 
+						"affects": ["^Steam$"], "src": "css/main/restyle/steam/pillowitemnav.css"
+					}
+				}
+            }
+        },
+        "Navigation Bar Arrows": {
+            "description": "Show/Hide Navigation Bar Arrows.",
+            "default": "Hide",
+            "tab": "Navigation",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/steam/arrowsnav.css"
+                    }
+                }
+            }
+        },
+        "Steam Title": {
+            "description": "Show/Hide Steam Title on Navigation Bar.",
+            "default": "Show",
+            "tab": "Navigation",
+            "values": {
+                "Show": {},
+                "Hide": {
+				    "TargetCss": { 
+						"affects": ["^Steam$"], "src": "css/extra/navigation/steamtitlehide.css"
+					}
+				}
+            }
+        },
+        "News": {
+            "description": "Show/Hide News Button on Navigation Bar.",
+            "default": "Show",
+            "tab": "Navigation",
+            "values": {
+                "Show": {},
+                "Hide": {
+				    "TargetCss": { 
+						"affects": ["^Steam$"], "src": "css/extra/navigation/hidenewsbtn.css"
+					}
+				}
+            }
+        },
+        "Notification": { 
+            "description": "Show/Hide Notification Button on Navigation Bar.",
+            "default": "Show",
+            "tab": "Navigation",
+            "values": {
+                "Show": {},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/navigation/hidenotificationbtn.css"
+					}
+				}
+            }
+        },
+        "Manage Account": { 
+            "description": "Show/Minimize/Hide Manage Account Button on Navigation Bar.",
+            "default": "Show",
+            "tab": "Navigation",
+            "values": {
+                "Show": {},
+                "Minimize": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/navigation/minimizemanageaccountbtn.css"
+					}
+				},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/navigation/hidemanageaccountbtn.css"
+					}
+				}
+            }
+        },
+        "Big Picture Mode": {
+            "description": "Show/Hide Big Picture Mode Button on Navigation Bar.",
+            "default": "Show",
+            "tab": "Navigation",
+            "values": {
+                "Show": {},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/navigation/hidebigpicturebtn.css"
+					}
+				}
+            }
+        },
+        "What's New": {
+            "description": "Show/Compact/Hide What's New Section.",
+            "default": "Compact",
+            "tab": "Library",
+            "values": {
+                "Show": {},
+                "Compact": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/whatsnew/compact.css"
+                    }
+                },
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/whatsnew/hide.css"
+                    }
+                }
+            }
+        },
+        "Gradient Background on Hover": {
+            "description": "Add Gradient Background on Game Hover.",
+            "default": "yes",
+            "tab": "Library",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/main/restyle/steam/gradientbg.css"
+                    }
+                }
+            }
+        },
+        "Shiny Effect": {
+            "description": "Show/Hide Shiny Effect on Game Hover.",
+            "default": "Hide",
+            "tab": "Library",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/shiny.css"
+                    }
+                }
+            }
+        },
+        "Hover Animation": {
+            "description": "Change Animation on Game Hover.",
+            "default": "Default",
+            "tab": "Library",
+            "values": {
+                "None": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animnone.css"
+                    }
+                },
+                "Default": {},
+                "Image Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animimgscale.css"
+                    }
+                },
+                "Card Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animcardscale.css"
+                    }
+                },
+                "Little Rotate": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animlittlerotate.css"
+                    }
+                },
+                "Move Up": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animtopup.css"
+                    }
+                },
+                "Move Down": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbottomdown.css"
+                    }
+                },
+                "Transform": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animtransform.css"
+                    }
+                },
+                "#@%**": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animfck.css"
+                    }
+                }
+            }
+        },
+        "Big Hover Animation": { 
+            "description": "Change Animation on Big Game Hover.",
+            "default": "Default",
+            "tab": "Library",
+            "values": {
+                "None": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbignone.css"
+                    }
+                },
+                "Default": {},
+                "Image Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbigimgscale.css"
+                    }
+                },
+                "Card Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbigcardscale.css"
+                    }
+                },
+                "Little Rotate": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbiglittlerotate.css"
+                    }
+                },
+                "Move Up": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbigtopup.css"
+                    }
+                },
+                "Move Down": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbigbottomdown.css"
+                    }
+                },
+                "Transform": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbigtransform.css"
+                    }
+                },
+                "#@%**": { 
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/animbigfck.css"
+                    }
+                }
+            }
+        },
+        "URL Position": {
+            "description": "Change Position of URL Bar.",
+            "default": "Left",
+            "tab": "Browser",
+            "values": {
+                "Left": {},
+                "Center": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/steam/urlcenter.css"
+                    }
+                }
+            }
+        },
+        "URL Visibility": { 
+            "description": "Show/Hide URL Bar.",
+            "default": "Show",
+            "tab": "Browser",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/steam/urlhide.css"
+                    }
+                }
+            }
+        },
+        "Account Name": {
+            "description": "Show/Blur/Hide Account Name in Account Menu.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/account_blur.css"
+					}
+				},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/account_hide.css"
+					}
+				},
+                "Full Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/account_fhide.css"
+					}
+				}
+            }
+        },
+        " - Show Name after Hover?": {
+            "description": "Doesn't work with Full Hide.",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/account_after_hover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Balance": {
+            "description": "Show/Blur/Hide Account Balance in Account Menu.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balance_blur.css"
+					}
+				},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balance_hide.css"
+					}
+				},
+                "Full Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balance_fhide.css"
+					}
+				}
+            }
+        },
+        " - Show Balance after Hover?": {
+            "description": "Doesn't work with Full Hide.",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {				
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy//balance_after_hover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Balance In Name": {
+            "description": "Show/Blur/Hide Account Balance in Name.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nbalance_blur.css"
+					}
+				},
+                "Hide": { 
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nbalance_hide.css"
+					}
+				},
+                "Full Hide": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nbalance_fhide.css"
+					}
+				}
+            }
+        },
+        " - Show Balance in Name after Hover?": {
+            "description": "Doesn't work with Full Hide.",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": { 
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nbalance_after_hover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Details In Settings": {
+            "description": "Show/Blur/Hide Account Details in Settings.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": [".ModalDialogPopup"], "src": "css/extra/privacy/semail_blur.css"
+					}
+				},
+                "Hide": { 
+				    "TargetCss": {
+						"affects": [".ModalDialogPopup"], "src": "css/extra/privacy/semail_hide.css"
+					}
+				}
+            }
+        },
+        " - Show Details in Settings after Hover?": {
+            "description": "",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": { 
+						"affects": [".ModalDialogPopup"], "src": "css/extra/privacy/semail_after_hover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Balance In Details": {
+            "description": "Show/Blur/Hide Account Balance in Details. [WIP]",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["http.*steampowered.*account.*"], "src": "css/extra/privacy/dbalance_blur.css"
+					}
+				},
+                "Hide": { 
+				    "TargetCss": {
+						"affects": ["http.*steampowered.*account.*"], "src": "css/extra/privacy/dbalance_hide.css"
+					}
+				}
+            }
+        },
+        " - Show Balance in Details after Hover?": {
+            "description": "[WIP]",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": {
+						"affects": ["http.*steampowered.*account.*"], "src": "css/extra/privacy/dbalance_after_hover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Data In Details": {
+            "description": "Show/Blur/Hide Account Data in Details. [WIP]",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["http.*steampowered.*account.*"], "src": "css/extra/privacy/demail_blur.css"
+					}
+				},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["http.*steampowered.*account.*"], "src": "css/extra/privacy/demail_hide.css"
+					}
+				}
+            }
+        },
+        " - Show Data in Details after Hover?": {
+            "description": "[WIP]",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": {
+						"affects": ["http.*steampowered.*account.*"], "src": "css/extra/privacy/demail_after_hover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Badges for Contributes": { 
+            "description": "Custom badges at user profiles near nickname.\n(Can't be disabled)",
+            "default": "Enabled",
+            "tab": "Extra",
+            "values": {
+                "Enabled": {}
+            }
+        },
+        "MD3 Switch": { 
+            "description": "Change Steam's Switch to Material Design 3 Style.",
+            "default": "yes",
+            "tab": "Extra",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/md3switch.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Ban Status": {
+            "description": "Show/Hide Ban Status Text on Profile Pages.\n[WIP]",
+            "default": "Show",
+            "tab": "Extra",
+            "values": {
+                "Show": {},
+                "For Me": {
+                    "TargetCss": {
+                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "css/extra/ban/vb_me.css"
+                    }
+                },
+                "For All": {
+                    "TargetCss": { 
+                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "css/extra/ban/vb_all.css"
+                    }
+                }
+            }
+        }
+    },
+    
+
+    "Patches": [
+        {
+            "MatchRegexString": "http.*steamcommunity.*(id|profiles).[^\/]+\/?$",
+            "TargetJs": "js/extra/badges/badges.js",
+            "TargetCss": "css/extra/badges/badges.css"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "css/main/root/fix.css"
+        }
+    ]
+}

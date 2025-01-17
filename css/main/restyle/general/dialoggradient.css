@@ -1,0 +1,29 @@
+/* Animation */
+
+.fullheight.ModalDialogBody.DesktopUI .title-area-children {
+    transition: .2s;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+    background-size: 300% 300%;
+    opacity: 0;
+    filter: blur(100px);
+    animation: gradientAnimation 10s infinite;
+    overflow: hidden;
+    /* animation-play-state: paused; */
+    z-index: 0;
+}
+.fullheight.ModalDialogBody.DesktopUI.WindowFocus .title-area-children {
+    opacity: 1;
+    animation-play-state: running;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

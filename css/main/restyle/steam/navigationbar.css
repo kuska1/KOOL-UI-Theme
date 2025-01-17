@@ -1,0 +1,56 @@
+/* Title */
+._3Z3ohQ8-1NKnCZkbS6fvy {
+    margin: auto;
+}
+/* Back & Forward */
+._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 svg:nth-child(2) {
+    order: 2;
+    margin-left: 10px !important;
+    padding-bottom: 5px !important;
+}
+/* Remove Height */
+.RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
+	min-height: unset !important;
+    height: unset !important;
+}
+/* Add Height */
+._39oUCO1OuizVPwcnnv88no {
+    height: 40px !important;
+}
+/* Center Items */
+._3Z3ohQ8-1NKnCZkbS6fvy {
+    position: absolute !important;
+    top: 23px !important;
+    left: 50% !important;
+    width: fit-content !important;
+    padding: 0 !important;
+    transform: translate(-50%, -50%) !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Color */
+/* ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: var(--text-dark);
+} */
+/* Account Menu */
+._3yD46y5pd3zOGR7CzKs0mC {
+    transition: .2s !important;
+    background: unset !important;
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    margin-bottom: 3px !important;
+    padding: 3px !important;
+}
+._3yD46y5pd3zOGR7CzKs0mC:hover {
+    background-color: var(--virtualmenu-bg-hover) !important;
+    /* background-color: color-mix(in srgb, var(--main-accent), transparent 80%) !important; */
+}
+/* Balance Fix */
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
+    padding-right: 4px !important;
+}
+
+/* Remove Lines */
+/* ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+    box-shadow: unset !important;
+} */

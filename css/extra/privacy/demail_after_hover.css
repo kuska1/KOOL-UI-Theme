@@ -1,0 +1,5 @@
+.account_data_field:hover {
+	filter: unset !important;
+	opacity: 1;
+	transition: 0.15s linear;
+}

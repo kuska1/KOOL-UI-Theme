@@ -1,0 +1,124 @@
+/* GENERAL */
+/* Header Line */
+div.ModalPosition_TopBar {
+    background: linear-gradient(to right, transparent 10%, var(--virtualmenu-accent) 50%, transparent 90%) !important;
+}
+/* Position Fix */
+/* .ModalPosition {
+    height: 90% !important;
+} */
+/* News, Non-Product Fix, Launch As */
+/* .ModalPosition._2JKpGzeAiwmBdY73bfRXz-, .ModalPosition._3StXNL1HvLIJMUxfaFLdX-, .ModalPosition:has(.DialogContent._DialogLayout._1tQy-wDVMFDobGfNObgSHR), .ModalPosition:has(.DialogLabel._DialogLayout._3T-1PliI6PkKE-bE-o3bV0) {
+    height: 100% !important;
+} */
+/* Shadow */
+.ModalPosition_Content {
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+}
+/* Overlay */
+.ModalOverlayBackground {
+    backdrop-filter: blur(3px) !important;  
+    transition: .2s !important;
+}
+/* Dialog */
+.DialogContent._DialogLayout {
+    border-radius: 24px !important;
+    background: linear-gradient(45deg, rgba(23,24,27,1) 0%, rgb(var(--bg-dark)) 42%) !important;
+    backdrop-filter: blur(10px) !important;
+    filter: var(--bg-shadow) !important;
+    padding: 24px !important;
+}
+/* FIX */
+.DialogContent._DialogLayout.TODO {
+    border-radius: unset !important;
+}
+/* Settings, Non-Product Fix */
+.DialogContent._DialogLayout.CFTLX2wIKOK3hNV-fS7_V, .DialogContent._DialogLayout._1tQy-wDVMFDobGfNObgSHR {
+    border-radius: 0px !important;
+}
+/* Header */
+.DialogHeader {
+    transition: .2s !important;
+}
+/* Dismiss */
+.ModalPosition_Dismiss {
+    right: 7px !important;
+    transition: .2s !important;
+}
+/* Btns */
+.DesktopUI .DialogFooter button.DialogButton {
+    border-radius: 8px;
+}
+
+
+/* THEME INFO */
+
+/* Description */
+/* INFO PAGE */
+.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"] {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+    filter: rgb(var(--bg-shadow)) !important;
+    backdrop-filter: blur(10px) !important;
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: 700 !important;
+    animation: textanim 1s ease 0s 1 normal forwards !important;
+}
+@keyframes textanim {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) .DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
+    border-radius: 0px !important;
+}
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) .DialogSubHeader._2rK4YqGvSzXLj1bPZL8xMJ, .DialogBodyText._3fPiC9QRyT5oJ6xePCVYz8 {
+    margin: auto !important;
+    text-align: center !important;
+}
+/* Developer Text Change */
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN.no-drag {
+    visibility: hidden !important;
+}
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN.no-drag::before {
+    visibility: visible !important;
+    content: "kuska1.github.io" !important;
+}
+/* ._3oeHwxQTKDkPcxDhz8jbhM.online {
+    transition: opacity .3s !important;
+    background: linear-gradient(90deg, black 0%, transparent 100%) !important;
+    backdrop-filter: opacity(0);
+} */
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) ._3oeHwxQTKDkPcxDhz8jbhM.online:hover {
+    background: linear-gradient(90deg, black 0%, transparent 75%) !important;
+    filter: var(--bg-shadow) !important;
+    /* backdrop-filter: opacity(1); */
+}
+/* Image Line Change */
+/* body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) ._3oeHwxQTKDkPcxDhz8jbhM.online .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus.right {
+    right: -5px !important;
+} */
+/* Btns */
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) ._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
+    border-radius: 0px !important;
+}
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) ._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:hover {
+    filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.25)) !important;
+}
+/* Gradient */
+@import url(".../general/dialoggradient.css");
+body:has(.DialogHeader[style*="display: flex; align-items: baseline; gap: 10px;"]) .title-area-children {
+    transition: .2s !important;
+    /* background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1) !important; */
+    background-size: 300% 300% !important;
+    filter: blur(100px) !important;
+    animation: gradientAnimation 10s infinite !important;
+    opacity: 1 !important;
+    animation-play-state: running !important;
+}

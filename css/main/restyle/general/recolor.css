@@ -258,3 +258,8 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 ._2H1MiFt6wMYuJDB8kZElFs._2JMEE2dz_3JMJg5pNiinj5 {
     color: rgb(var(--main-accent)) !important;
 }
+
+/* new to library */
+.N8aJrSpxQ6II4CY_aFdYI {
+    background: rgb(var(--main-accent)) !important;
+}

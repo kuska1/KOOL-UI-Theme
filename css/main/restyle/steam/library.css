@@ -82,6 +82,14 @@
     margin-left: unset !important;
 }
 
+/* new to library */
+.N8aJrSpxQ6II4CY_aFdYI {
+    box-shadow: unset !important;
+    margin-top: -8px !important;
+    border-radius: 24px !important;
+    filter: var(--bg-shadow) !important;
+}
+
 /* loading On Game Cover */
 .kX-tIJx4a9vKVuUkKJARv._1wAArO4jx5Kth5YdKAQ_Sd._3BNwjsy5WltxayFptkx3KF {
     width: 70% !important;
@@ -426,7 +434,8 @@
 }
 /* You Played This Game for ... Hours */
 ._3LE-6w1ItIAB4CKJFCa3Od ._2z8Na_s9JosX48wHF4HPiA {
-    transform: translate(23%, 0%) !important;
+    width: 100% !important;
+    /* transform: translate(23%, 0%) !important; */
 }
 ._3LE-6w1ItIAB4CKJFCa3Od {
     background: unset !important;
@@ -448,6 +457,11 @@
 /* ._1kCN0pAntrcGCSmcc-vYdk:nth-child(n+1):nth-child(-n+2) span {
     visibility: hidden !important;
 } */
+
+/* no recent activity */
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+    border-radius: 24px !important;
+}
 
 /* Additional Content */
 ._11iUUsCpGW7-08wUrrGpge {

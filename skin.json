@@ -1,9 +1,9 @@
 {
     "name": "KOOL-UI",
     "author": "flowird",
-    "description": "WIP",
+    "description": "Cool Theme for Steam with some Features.",
     "tags": ["kool", "ui", "kool-ui", "koolui"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "header_image": "https://i.imgur.com/image_here.png",
     "splash_image": "https://i.imgur.com/image_here.png",
 
@@ -16,8 +16,8 @@
     "RootColors": "css/main/root/root.css",
     "UseDefaultPatches": true,
 
-    "Conditions": { 
-        "Recolor Accent Color": { 
+    "Conditions": {
+        "Recolor Accent Color": {
             "description": "Change Steam's Default Color to your Accent Color.",
             "default": "yes",
             "tab": "General",
@@ -56,7 +56,7 @@
                 "no": {}
             }
         },
-        "Avatar Border Style": { 
+        "Avatar Border Style": {
             "description": "Change Avatar Border Style to Square/Squircle/Round.",
             "default": "Round",
             "tab": "General",

@@ -465,6 +465,10 @@
 
 /* Additional Content */
 ._11iUUsCpGW7-08wUrrGpge {
+    transition: .15s !important;
+    border-radius: 14px !important;
+}
+.LO26ZYaqzK4mqekirGHGI ._3ikOg0yRAOzUTlfwD9zrH- {
     border-radius: 14px !important;
 }
 
@@ -549,7 +553,11 @@ button.TextButton._34gmVq6C3FNtdHqDLa3-XR {
     color: rgb(var(--text-dark)) !important;
 }
 ._1GCZAht_W2I3Elndk5cU0- {
+    transition: .15s !important;
     border-radius: 24px !important;
+}
+._1GCZAht_W2I3Elndk5cU0-:hover {
+    background-color: rgb(var(--bg-dark)) !important;
 }
 /* Achievments Unlocked */
 ._3jC8om-5Sci_dkUB-6VYiU {

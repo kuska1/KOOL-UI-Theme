@@ -1,6 +1,28 @@
 /* Original code by NEVKO-UI */
 
 /* Return Icon */
+
+/* Community/Powered */
+/* .playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar, .appHubIconHolder {
+	background: unset !important;
+}
+.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img {
+	outline: unset;
+}
+.playerAvatar.offline img, .friend_status_offline .friend_block_avatar img, .appHubIconHolder.offline img, .avatar_block_status_offline img {
+	outline: unset;
+}
+.playerAvatar.online img, .friend_status_online .friend_block_avatar img, .appHubIconHolder.online img, .avatar_block_status_online img {
+	outline: unset;
+}
+.playerAvatar.in-game img, .friend_status_in-game .friend_block_avatar img, .appHubIconHolder.in-game img, .avatar_block_status_in-game img {
+	outline: unset;
+}
+.profile_topfriends .friendBlock {
+	outline: unset;
+} */
+
+/* Library */
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, 
 ._3xUpb5DWXPFNcHHIcv-9pe {

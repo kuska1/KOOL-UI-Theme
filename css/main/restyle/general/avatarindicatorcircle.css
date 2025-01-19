@@ -1,4 +1,52 @@
+
 /* Replace Online Icon */
+
+/* Community/Powered */
+.playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar, .appHubIconHolder {
+	background: unset !important;
+}
+.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img {
+	/* background: unset !important; */
+	outline: 1px solid;
+	transition: .35s linear;
+}
+.playerAvatar.offline img, .friend_status_offline .friend_block_avatar img, .appHubIconHolder.offline img, .avatar_block_status_offline img {
+	background: rgb(var(--indicator-offline));
+	outline-color: rgb(var(--indicator-offline));
+}
+.playerAvatar.online img, .friend_status_online .friend_block_avatar img, .appHubIconHolder.online img, .avatar_block_status_online img {
+	background: rgb(var(--indicator-online));
+	outline-color: rgb(var(--indicator-online));
+}
+.playerAvatar.in-game img, .friend_status_in-game .friend_block_avatar img, .appHubIconHolder.in-game img, .avatar_block_status_in-game img {
+	background: rgb(var(--indicator-ingame));
+	outline-color: rgb(var(--indicator-ingame));
+}
+.profile_topfriends .friendBlock {
+    transition: 0.1s !important;
+    border-top-left-radius: 18px !important;
+    border-bottom-left-radius: 18px !important;
+}
+
+/* Mini-Profile */
+.miniprofile_playersection .playersection_avatar {
+	border: unset !important;
+}
+.miniprofile_playersection .playersection_avatar img {
+	outline: 2px solid;
+	transition: .35s linear;
+}
+.miniprofile_playersection .playersection_avatar.border_color_offline img {
+	outline-color: rgb(var(--indicator-offline));
+}
+.miniprofile_playersection .playersection_avatar.border_color_online img {
+	outline-color: rgb(var(--indicator-online));
+}
+.miniprofile_playersection .playersection_avatar.border_color_in-game img {
+	outline-color: rgb(var(--indicator-ingame));
+}
+
+/* Library */
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, 
 ._3xUpb5DWXPFNcHHIcv-9pe {
@@ -12,19 +60,34 @@
 ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: rgb(var(--indicator-offline));
 }
+/* .nibodjvvrm86uCfnnAn4g {
+	background: rgb(var(--indicator-offline));
+} */
 /* Online */
 .online ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: rgb(var(--indicator-online));
 }
+/* .nibodjvvrm86uCfnnAn4g.online {
+	background: rgb(var(--indicator-online));
+} */
 /* Away */
 .awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline: 1px dashed rgb(var(--indicator-away));
 }
+/* .nibodjvvrm86uCfnnAn4g.awayOrSnooze{
+	background: rgb(var(--indicator-away));
+} */
 /* Ingame */
 .ingame ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: rgb(var(--indicator-ingame));
 }
+/* .nibodjvvrm86uCfnnAn4g.ingame {
+	background: rgb(var(--indicator-ingame));
+} */
 /* Ingame Away */
 .ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline: 1px dashed rgb(var(--indicator-ingame-away));
 }
+/* .nibodjvvrm86uCfnnAn4g.ingame.awayOrSnooze {
+	background: rgb(var(--indicator-ingame-away));
+} */

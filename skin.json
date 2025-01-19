@@ -3,7 +3,7 @@
     "author": "flowird",
     "description": "Cool Theme for Steam with some Features.",
     "tags": ["kool", "ui", "kool-ui", "koolui"],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "header_image": "https://i.imgur.com/image_here.png",
     "splash_image": "https://i.imgur.com/image_here.png",
 
@@ -74,7 +74,7 @@
                 }
             }
         },
-        "Indicator Style": {
+        "Indicator Style": { 
             "description": "Change Avatar Border Style to Square/Squircle/Round.",
             "default": "Dot",
             "tab": "General",
@@ -91,7 +91,7 @@
                 }
             }
         },
-        "Navigation Bar Items": {
+        "Navigation Bar Items": { 
             "description": "Change Navigation Bar Items Style.",
             "default": "Pillow",
             "tab": "Interface",
@@ -122,7 +122,7 @@
                 "Show": {},
                 "Hide": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/main/restyle/steam/arrowsnav.css"
+                        "affects": ["^Steam$"], "src": "css/main/restyle/steam/arrowsnav.css"
                     }
                 }
             }

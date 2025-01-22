@@ -239,11 +239,14 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 
 /* dashes */
 .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T {
-    border-color: rgb(var(--main-accent)) !important;;
+    border-color: rgb(var(--main-accent)) !important;
+}
+._2m6Q3ca-wXeLIVShFCO51T ._2sCvZTD6ZTZz3p9_ekH_gI ._3B3J2qtE6ozU_VXMMN2L51 {
+    border-color: rgb(var(--main-accent)) !important;
 }
 /* moves */
 .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo {
-    background: color-mix(in srgb, rgb(var(--main-accent)), transparent 70%) !important;
+    background: color-mix(in srgb, rgb(var(--main-accent)), transparent 70%);
 }
 
 /* Images Post */

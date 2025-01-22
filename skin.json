@@ -3,7 +3,7 @@
     "author": "flowird",
     "description": "Cool Theme for Steam with some Features.",
     "tags": ["kool", "ui", "kool-ui", "koolui"],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "header_image": "https://i.imgur.com/image_here.png",
     "splash_image": "https://i.imgur.com/image_here.png",
 
@@ -17,7 +17,7 @@
     "UseDefaultPatches": true,
 
     "Conditions": {
-        "Recolor Accent Color": {
+        "Recolor Accent Color": { 
             "description": "Change Steam's Default Color to your Accent Color.",
             "default": "yes",
             "tab": "General",
@@ -359,6 +359,29 @@
                 "Hide": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/restyle/steam/urlhide.css"
+                    }
+                }
+            }
+        },
+        "Page Animation on Load": { 
+            "description": "Add Page Animation on Load",
+            "default": "None",
+            "tab": "Browser",
+            "values": {
+                "None": {},
+                "Opacity": {
+                    "TargetCss": {
+                        "affects": ["http.*"], "src": "css/extra/onload/opacity.css"
+                    }
+                },
+                "Blur": {
+                    "TargetCss": {
+                        "affects": ["http.*"], "src": "css/extra/onload/blur.css"
+                    }
+                },
+                "Opacity + Blur": {
+                    "TargetCss": {
+                        "affects": ["http.*"], "src": "css/extra/onload/bluropacity.css"
                     }
                 }
             }

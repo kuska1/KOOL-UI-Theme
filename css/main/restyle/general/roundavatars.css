@@ -22,6 +22,10 @@
 	border-radius: 6% !important;
 	outline-width: 1px !important;
 }
+.playerAvatar:has(.profile_avatar_frame) img {
+	border-radius: 6% !important;
+	outline-width: 1px !important;
+}
 .playerAvatar .profile_avatar_frame > img {
     outline: unset !important;
 }

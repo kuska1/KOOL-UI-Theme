@@ -26,3 +26,7 @@
     border-radius: 12px !important;
     box-shadow: unset !important;
 }
+/* Store Fix */
+.app .store_tooltip {
+    background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 10%) !important;
+}

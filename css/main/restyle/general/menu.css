@@ -38,14 +38,21 @@ body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18
     border: none !important;
 }
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
-    color: rgb(var(--bg-dark)) !important;
+    color: rgb(var(--bg-dark));
     background-color: rgb(var(--text-hover-dark)) !important;
 }
-/* Lanuch, etc */
+/* Launch, etc */
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl {
     transition: .1s !important;
     color: rgb(var(--text-hover-dark)) !important;
 }
+
+/* Playing */
+/* body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover ._2QcdrheE9WasLLyJYHymUv._54dy2uxVcadf_1e6Poifs {
+    color: #adff2f !important;
+    font-weight: unset !important;
+} */
+
 
 /* Divider */
 body.DesktopUI ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_,

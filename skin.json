@@ -3,7 +3,7 @@
     "author": "flowird",
     "description": "Cool Theme for Steam with some Features.",
     "tags": ["kool", "ui", "kool-ui", "koolui"],
-    "version": "1.0.4",
+    "version": "1.1.0",
     "header_image": "https://i.imgur.com/image_here.png",
     "splash_image": "https://i.imgur.com/image_here.png",
 
@@ -17,7 +17,7 @@
     "UseDefaultPatches": true,
 
     "Conditions": {
-        "Recolor Accent Color": { 
+        "Recolor Accent Color": {
             "description": "Change Steam's Default Color to your Accent Color.",
             "default": "yes",
             "tab": "General",

@@ -314,8 +314,17 @@
     transition: .3s !important;
     color: rgb(var(--text-dark)) !important;
 }
+._3QRf-tp5VddAF00vWY5Gn8:hover {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 5%) !important;
+}
 ._3QRf-tp5VddAF00vWY5Gn8:hover ._1Cva_kor3lWBIoeu9cQxJq {
     color: rgb(var(--text-hover-dark)) !important;
+}
+._1-llQnFWxBo1kyWdkDFyXp svg path {
+    transition: .3s !important;
+}
+._3QRf-tp5VddAF00vWY5Gn8:hover ._1-llQnFWxBo1kyWdkDFyXp svg path {
+    fill: #fff !important;
 }
 /* Major */
 ._39Zk32AvV5cr6g-83IVRVS {
@@ -469,7 +478,10 @@
     border-radius: 14px !important;
 }
 .LO26ZYaqzK4mqekirGHGI ._3ikOg0yRAOzUTlfwD9zrH- {
-    border-radius: 14px !important;
+    margin-top: 6px !important;
+    margin-left: 6px !important;
+    border-radius: 10px !important;
+    filter: var(--bg-shadow) !important;
 }
 
 /* Achievments */
@@ -502,6 +514,26 @@
 }
 ._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE- {
     border-radius: 12px !important;
+}
+/* hover */
+._38FqIwZQKW6BlRyzN66pi6 {
+    box-shadow: unset !important;
+}
+._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce {
+    border-radius: 24px !important;
+    filter: var(--bg-shadow) !important;
+}
+/* iframe */
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B {
+    border-radius: 24px !important;
+}
+.M1EYVG_HMAo8ap80JrIUh {
+    border-radius: 24px !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+}
+.game_hover_box {
+    background: red !important;
 }
 
 /* Right Items */
@@ -559,6 +591,9 @@ button.TextButton._34gmVq6C3FNtdHqDLa3-XR {
 ._1GCZAht_W2I3Elndk5cU0-:hover {
     background-color: rgb(var(--bg-dark)) !important;
 }
+.nibodjvvrm86uCfnnAn4g:hover {
+    cursor: pointer !important;
+}
 /* Achievments Unlocked */
 ._3jC8om-5Sci_dkUB-6VYiU {
     text-align: center !important;
@@ -578,6 +613,10 @@ button.TextButton._34gmVq6C3FNtdHqDLa3-XR {
     border-bottom-left-radius: 24px !important;
     border-bottom-right-radius: 24px !important;
     filter: grayscale(1) var(--bg-shadow) !important;
+}
+._31ptFGGMZrSQc5BCX1e5lm:not(:has(.Panel ._38t1mljBjmJfqjpVzMT1CG._1zmwcbn8AgDTiWuHGyMD2w)) ._176QJCynkEUSdR_-9btdAW {
+    border-top-left-radius: 24px !important;
+    border-top-right-radius: 24px !important;
 }
 /* Title & Read More */
 ._1W34WpqfvufNgueNdZozwC ._3DyemX0QGhW2mipZQwVfnS ._1KR5XpPLCIid-SJBY4jFIp, ._1W34WpqfvufNgueNdZozwC ._3DyemX0QGhW2mipZQwVfnS ._3Mq6sekyFK-ftT7QO56xSv .YE_jJPwp0fBbRm1vQHIIq {
@@ -645,6 +684,43 @@ button.TextButton._34gmVq6C3FNtdHqDLa3-XR {
     background-color: color-mix(in srgb, rgb(var(--bg-hover-dark)), transparent 7%) !important;
     backdrop-filter: blur(5px) !important;
 }
+
+/* Additional Content */
+._2UySYiE8fUGGugkHVm1Qb ._2kqz-bSlDu-I49_cV_wicB {
+    transition: .15s !important;
+    border-radius: 24px !important;
+    border-image: unset !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+._78Pwybe-fHVYEkQFFlpA5 ._3gB_gMsbWHUGn5Rqwe6KeC {
+    box-shadow: unset !important;
+}
+._3qlJ0L41KQFqUTzVQKFERC {
+    transition: .15s !important;
+}
+._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    filter: var(--bg-shadow) !important;
+}
+._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa:hover {
+    background: unset !important;
+}
+._3CJctA7pLVdwHzNF5JmORE._1b9np87BteQi38-defpW0U {
+    transition: .15s !important;
+}
+.SMWMsB-gz3WbYRK2HOm7i:not(:has(._16nHYucq6xgfe67DrVWLCI)) ._3CJctA7pLVdwHzNF5JmORE._1b9np87BteQi38-defpW0U:not(._1X10hweRfMtUjyF-CHh6K5) {
+    mask-image: linear-gradient(90deg, transparent 0%, black 10px, black calc(100% - 48px), transparent calc(100% - 10px), transparent 100%) !important;
+}
+._3CJctA7pLVdwHzNF5JmORE._1b9np87BteQi38-defpW0U._1X10hweRfMtUjyF-CHh6K5 {
+    mask-image: linear-gradient(90deg, transparent 0%, black 10px, black calc(100% - 48px), black calc(100% - 10px), black 100%) !important;
+}
+.SMWMsB-gz3WbYRK2HOm7i:not(:has(._14b-hQsLwSwYcELtknxCUX._3qlJ0L41KQFqUTzVQKFERC)) ._3CJctA7pLVdwHzNF5JmORE._1b9np87BteQi38-defpW0U {
+    mask-image: unset !important;
+}
+
 
 /* Post-Game Summary */
 ._2MKO5j24KqDdD-92hH5FXi {

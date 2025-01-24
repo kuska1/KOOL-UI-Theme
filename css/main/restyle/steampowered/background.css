@@ -1,0 +1,49 @@
+body {
+    background: unset !important;
+    background-color: rgb(var(--bg-dark));
+}
+body #footer {
+    background: rgb(var(--bg-dark)) !important;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    left: 3px !important;
+}
+body #footer a {
+    transition: .15s !important;
+}
+/* Headers */
+.page_header_ctn {
+    background: unset !important;
+}
+/* body:not(.explore):not(.selectgiftcard) .page_header_ctn {
+    background: rgba(0, 0, 0, 0) url("/public/images/v6/temp/cluster_bg_40.png") no-repeat scroll center bottom;
+    filter: grayscale(1) !important;
+} */
+/* Store */
+.home_cluster_ctn {
+    background: unset !important;
+}
+/* Game Page */
+.game_page_background.game {
+    background: unset !important;
+}
+/* Home */
+.apphub_background {
+    background: unset !important;
+}
+/* Discussions */
+.group_content {
+    background: unset !important;
+}
+/* Friends */
+.friends_header_bg {
+    background: unset !important;
+}
+/* Wishlist */
+.VuAIAiWhjcg-, .GHIW6-Wf1rQ- {
+    background: unset !important;
+}
+/* Market */
+.market_large_tab_well img {
+    visibility: hidden !important;
+}

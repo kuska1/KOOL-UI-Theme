@@ -1,0 +1,82 @@
+/* bg */
+#game_highlights {
+    background: unset !important;
+}
+.game_background_glow {
+    background: unset !important;
+}
+
+/* links */
+.breadcrumbs, .breadcrumbs a {
+    transition: .15s !important;
+    color: rgb(var(--text-dark)) !important;
+}
+.breadcrumbs a:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+/* Game Header */
+.game_header_image_ctn {
+    border-radius: 12px !important;
+}
+img.game_header_image_full {
+    border-radius: 12px !important;
+}
+
+/* desc */
+.game_description_snippet {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+.glance_ctn .user_reviews, .glance_ctn .dev_row .subtitle, .glance_ctn .release_date .subtitle, .glance_ctn .user_reviews .title {
+    color: rgb(var(--text-dark)) !important;
+}
+.glance_ctn .release_date .date, .glance_ctn .responsive_reviewdesc {
+    color: color-mix(in srgb, rgb(var(--text-dark)), #fff 60%) !important;
+}
+
+/* video */
+.highlight_movie_marker {
+    border-radius: 50% !important;
+}
+
+/* btns */
+.ico16.arrow_next {
+    filter: grayscale(1) !important;
+}
+.queue_btn_menu > .queue_menu_arrow {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+    filter: var(--bg-shadow) !important;
+}
+.queue_btn_menu > .queue_menu_arrow span img {
+    filter: grayscale(1) !important;
+} 
+.queue_btn_menu:hover > .queue_menu_arrow, .queue_btn_menu > .queue_menu_arrow:hover {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+/* Slider*/
+.slider_ctn .slider_left, .slider_ctn .slider_right, .slider .handle {
+    transition: .15s !important;
+    border-radius: 6px !important;
+    color: rgb(var(--text-dark)) !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+.slider {
+    border-radius: 6px !important;
+}
+.slider .handle {
+    transition: background .15s !important;
+}
+.slider_left span, .slider_right span {
+    transition: color .15s !important;
+    filter: grayscale(1) !important;
+}
+.slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+    background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 20%) !important;
+}
+/* Actions */
+.queue_ctn {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #000 30%) !important;
+    border-radius: 12px !important;
+}

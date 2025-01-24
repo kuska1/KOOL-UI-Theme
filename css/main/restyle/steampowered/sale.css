@@ -1,0 +1,22 @@
+._1FPIVJTLsw1nvAN24BGGKg .gc-rqvG6ITYgP26WGwJZz {
+    transition: .1s !important;
+}
+/* Disclaimer */
+._1RsiclQYbOWMcz3Hr6dVT9 {
+    color: rgb(var(--text-dark)) !important;
+}
+/* Items */
+._22AcxR1RBDH6i-gjKRHYk0 {
+    border-radius: 12px !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+}
+/* Share */
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c {
+    border-radius: 12px !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c:hover {
+    border-radius: 12px !important;
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}

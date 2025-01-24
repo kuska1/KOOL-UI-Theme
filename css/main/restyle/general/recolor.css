@@ -5,6 +5,10 @@
     --color-progress-bar-foreground: rgb(var(--main-accent)) !important;
 }
 
+a:hover {
+    color: rgb(var(--main-accent));
+}
+
 /* Steam Upper Line */
 ._3pXasCUulX4jjqO79s4q_F._2MkHZqf7MrgW3f8qGHiI8Z {
     background: linear-gradient(to right, transparent 10%, rgb(var(--main-accent)) 50%, transparent 90%);
@@ -265,4 +269,13 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 /* new to library */
 .N8aJrSpxQ6II4CY_aFdYI {
     background: rgb(var(--main-accent)) !important;
+}
+
+/* Download Limit */
+._2LWo2qq9d-zuglW2VlM_Xu:hover ._35T9nZ2RsVs8kf7OMPlaxe {
+    color: rgb(var(--main-accent)) !important;
+}
+
+.author_block .avatar a:hover {
+    color: rgb(var(--main-accent)) !important;
 }

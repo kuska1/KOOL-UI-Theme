@@ -11,6 +11,16 @@ div.ModalPosition_TopBar {
 /* .ModalPosition._2JKpGzeAiwmBdY73bfRXz-, .ModalPosition._3StXNL1HvLIJMUxfaFLdX-, .ModalPosition:has(.DialogContent._DialogLayout._1tQy-wDVMFDobGfNObgSHR), .ModalPosition:has(.DialogLabel._DialogLayout._3T-1PliI6PkKE-bE-o3bV0) {
     height: 100% !important;
 } */
+
+/* FIXES */
+/* Launching */
+.DialogContent._DialogLayout._2KQRlxOL0nH2Mx4tAGxQQr {
+    border-radius: 0px !important;
+}
+.DialogContent._DialogLayout._2KQRlxOL0nH2Mx4tAGxQQr .DialogContent_InnerWidth {
+    overflow: hidden !important;
+}
+
 /* Shadow */
 .ModalPosition_Content {
     box-shadow: unset !important;

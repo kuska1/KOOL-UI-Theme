@@ -4,7 +4,7 @@
     box-shadow: unset !important;
     border-radius: 12px !important;
     background-color: color-mix(in srgb, rgb(var(--bg-dark)), transparent 60%) !important;
-    backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(13px) !important;
     color: var(--text-hover-dark) !important;
     padding: 3px !important;
     margin: 0 !important;
@@ -14,7 +14,7 @@
     font-weight: 500 !important;
     transition: .15s !important;
     border-radius: 8px !important;
-    color: rgb(var(--text-dark)) !important;
+    color: color-mix(in srgb, rgb(var(--text-dark)), #fff 20%) !important;
 }
 .ds_options_tooltip > .option:hover {
     color: rgb(var(--text-hover-dark)) !important;

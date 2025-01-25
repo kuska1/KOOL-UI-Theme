@@ -6,10 +6,26 @@
     color: rgb(var(--text-dark)) !important;
 }
 /* Items */
-._22AcxR1RBDH6i-gjKRHYk0 {
+._22AcxR1RBDH6i-gjKRHYk0, ._2hhNOdcC6yLwL_rugP3YLf._37iggltdgh0RtNIECJCfOj {
     border-radius: 12px !important;
     box-shadow: unset !important;
     filter: var(--bg-shadow) !important;
+}
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B {
+    border-radius: 24px !important;
+}
+._2jsr3PEq2iin7lU8wSO8X9 {
+    border-radius: 24px !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+}
+._2jsr3PEq2iin7lU8wSO8X9 ._1I27KVlWtKyGn2CPX9N1E1 ._2jpCsyBPApIKbMMORoLk5B {
+    border-top-left-radius: 24px !important;
+    border-top-right-radius: 24px !important;
+}
+.oAqlZTgPU37Nb8gBT5eAM {
+    border-bottom-left-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
 }
 /* Share */
 ._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c {
@@ -19,4 +35,103 @@
 ._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c:hover {
     border-radius: 12px !important;
     background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+/* Wishlist */
+._2gxv9cF-4n9wq4yxruOTNl {
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+._3notzMjxQtogi11XHZMYXI {
+    transition: .15s !important;
+    background: transparent !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+}
+._3notzMjxQtogi11XHZMYXI:hover {
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+.WishlistButton {
+    transition: .05s !important;
+}
+.WishlistButton svg polygon {
+    fill: #fff;
+}
+.v9uRg57bwOaPsvAnkXESO>div.WishlistButton {
+    border-radius: 50px !important;
+}
+.v9uRg57bwOaPsvAnkXESO>div.WishlistButton:hover {
+    border-radius: 12px !important;
+}
+/* Discounts */
+._3fFFsvII7Y2KXNLDk_krOW {
+    color: rgb(var(--text-dark)) !important;
+}
+._3fFFsvII7Y2KXNLDk_krOW::before {
+    border-bottom: 1.5px solid rgb(var(--text-dark)) !important;
+}
+._1g0B-RjwkUV0_MDURgy3Bi {
+    border-radius: 4px !important;
+    background: rgb(var(--bg-dark)) !important;
+}
+._1g0B-RjwkUV0_MDURgy3Bi .cnkoFkzVCby40gJ0jGGS4 {
+    border-radius: 4px !important;
+}
+._1JuIpzMtS7-xZrnUmEQ4my:has(.yoe6d_43t3I6-mjbZGkLs.CartBtn) ._1g0B-RjwkUV0_MDURgy3Bi {
+    border-radius: 8px !important;
+}
+._3j4dI1yA7cRfCvK8h406OB {
+    border-top-left-radius: 8px !important;
+    /* background: rgb(var(--bg-dark)) !important; */
+}
+/* ._1g0B-RjwkUV0_MDURgy3Bi:has(._3NhLu7mTdty7JufpSpz6Re) .cnkoFkzVCby40gJ0jGGS4 {
+    
+} */
+/* Video */
+.html5-video-player a {
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+}
+/* Add to Cart */
+.yoe6d_43t3I6-mjbZGkLs {
+    border-radius: 8px !important;
+    transition: .15s !important;
+    color: rgb(var(--text-hover-dark)) !important;
+    filter: var(--bg-shadow) !important;
+}
+/* Todays Deal */
+._21_xVixMh0-rRqUGdGxbEg {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+._3pSANczPET1GBWiNfM8ZEZ ._1tG1_bqddtY0lm02Wf4X9T {
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+._3pSANczPET1GBWiNfM8ZEZ .pNmm6ej3gbZJbTFnF34Bb img {
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+/* new */
+._2s-O5T3qJJYR2AUq4b9jIN ._2_KY_e11FV0ftXR2_7TMmP {
+    border-radius: 4px !important;
+    margin-right: 5px !important;
+}
+/* prepurchase */
+._1Fru-E7WQMr8G_aR2sMg5F span {
+    border-radius: 4px !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+    background: rgb(var(--bg-dark)) !important;
+}
+
+/* Hover */
+._2jsr3PEq2iin7lU8wSO8X9 ._1OMasH6HMfWdJfC-XkZlHF .wm-2TrfQqrfbj8zWlFAHN img {
+    border-bottom-right-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+._2jsr3PEq2iin7lU8wSO8X9 ._1OMasH6HMfWdJfC-XkZlHF .wm-2TrfQqrfbj8zWlFAHN {
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
 }

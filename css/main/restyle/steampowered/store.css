@@ -148,6 +148,10 @@ body.v6 .store_nav .popup_block_new .popup_body.search_v2 {
     margin-right: 5px !important;
     padding: 7px 7px 0 0 !important;
 }
+.ds_flag.ds_completetheset {
+    border-radius: 6px !important;
+    background-color: var(--virtualmenu-bg-hover);
+}
 .ds_options > div {
     transition: .15s !important;
     border-radius: 50px !important;
@@ -302,8 +306,8 @@ body.v6 .store_nav .popup_block_new .popup_body.search_v2 {
 }
 body.v6 .deep_dive_tag {
     border-radius: 4px !important;
-    color: rgb(var(--text-dark)) !important;
-    background: color-mix(in srgb, rgb(var(--bg-dark)), #000 20%) !important;
+    color: var(--virtualmenu-accent) !important;
+    background: var(--virtualmenu-bg-hover) !important;
 }
 body.v6 .deep_dive_key_tags {
     border-top: unset !important;

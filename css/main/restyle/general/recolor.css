@@ -144,13 +144,13 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
     color: rgb(var(--main-accent)); 
 }
 /* Game Played Too */
-._1s3b90MDEzWiXAzyEg4vu2 {
+._1s3b90MDEzWiXAzyEg4vu2, .miniprofile_playtimesection {
     background-color: rgb(var(--main-accent));
 }
-._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN .KiUMH-qZUhdrtWF93sxVo {
+._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN .KiUMH-qZUhdrtWF93sxVo, .miniprofile_playtimesection .playtimecontent {
     color: color-mix(in srgb, rgb(var(--main-accent)), #fff 60%);
 }
-._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN {
+._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN, .miniprofile_playtimesection .playtimecontent .timeplayed {
     color: color-mix(in srgb, rgb(var(--main-accent)), #fff 30%);
 }
 /* Achievments */

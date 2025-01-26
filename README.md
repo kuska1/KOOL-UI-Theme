@@ -1,0 +1,62 @@
+<p align="center">
+    <a href="https://github.com/kuska1/KOOL-UI-Theme/">
+        <picture>
+          <img src="github/logo/koolui.png?raw=true" alt="KOOL-UI Logo" width="200">
+        </picture>
+    </a>
+</p>
+
+<div align="center">
+
+# KOOL-UI
+### Cool Theme for Steam with some Features.
+
+## Screenshots
+
+Library
+
+</div>
+
+## Features:
+### UI
+* Library Restyle [WIP]
+* Steampowered Restyle [WIP]
+* Steamcommunity Restyle [WIP]
+### General
+* Recolor to Accent Color
+* Header Line Remover
+* Gradient Background Header
+* Avatar Border Style
+* Avatar Indicator Style
+### Interface
+* Navigation Bar Items Style
+* Show/Hide Navigation Bar Arrows
+* Show/Hide Steam Title
+* Navigation Bar Items Hider
+### Library
+* Restyle What's New
+* Gradient Background on Hover
+* Shiny Effect Remover
+* Change Hover Animations
+### Browser
+* URL Position
+* URL Visibility
+* Page Animation on Load
+### Privacy
+* Account Name Hider
+* Account Balance Hider
+* Account Details Hider
+
+## Roadmap:
+* Finish Restyle
+* Restyle Notifications
+* Restyle Overlay
+* Restyle Big Picture Mode
+* And more...
+
+## Credits:
+### Developer
+* [kuska1](https://github.com/kuska1)
+### Inspiration
+* [NEVKO-UI](https://github.com/dotFelixan/NEVKO-UI)
+* [SpaceTheme](https://github.com/SpaceTheme/Steam)

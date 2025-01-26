@@ -12,9 +12,7 @@
 ### Cool Theme for Steam with some Features.
 
 ## Screenshots
-![Library](https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library?raw=true) 
-
-Library
+![Library](https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true)
 
 </div>
 

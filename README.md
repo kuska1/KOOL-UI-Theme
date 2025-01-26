@@ -46,7 +46,7 @@
 * Account Balance Hider
 * Account Details Hider
 
-## Roadmap:
+## Todo:
 * Finish Restyle
 * Restyle Notifications
 * Restyle Overlay

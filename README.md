@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/kuska1/KOOL-UI-Theme/">
         <picture>
-          <img src="github/logo/koolui.png?raw=true" alt="KOOL-UI Logo" width="200">
+          <img src="github/logo.svg?raw=true" alt="KOOL-UI Logo" width="200">
         </picture>
     </a>
 </p>

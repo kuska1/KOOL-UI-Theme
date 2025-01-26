@@ -60,5 +60,5 @@
 * [NEVKO-UI](https://github.com/dotFelixan/NEVKO-UI)
 * [SpaceTheme](https://github.com/SpaceTheme/Steam)
 
-## Contact:
+## Contact & Support:
 [![kuska1](https://img.shields.io/badge/kuska1-blue?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://kuska1.github.io)

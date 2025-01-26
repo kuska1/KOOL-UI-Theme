@@ -1,6 +1,7 @@
 body {
-    background: unset !important;
-    background-color: rgb(var(--bg-dark));
+    /* background: unset !important; */
+    background: rgb(var(--bg-dark)) !important;
+    /* background-color: rgb(var(--bg-dark)); */
 }
 body #footer {
     background: rgb(var(--bg-dark)) !important;

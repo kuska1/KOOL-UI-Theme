@@ -53,8 +53,70 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     background: rgb(var(--bg-dark)) !important;
     color: rgb(var(--text-hover-dark)) !important;
 }
+._2oAiZidGyUxL-hfupFDQ2m:focus {
+    background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 10%) !important;
+}
 /* Checkbox */
 .DialogCheckbox {
     transition: .15s !important;
     filter: var(--bg-shadow) !important;
+}
+/* Radio Btns */
+._1ml4SNc3LIyBDHIf8ekVSw {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+.HijmccPB1BKyhOwhX1EVl {
+    border-radius: 10px !important;
+    transition: .15s !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+    text-shadow: unset !important;
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 1%) !important;
+}
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)::before {
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+/* Arrows Menu */
+._21Uc0N6TIRIw4LIZzQnsdE {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+._1u5y7VbwvOwncjMsMqnFUz {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+/* Checkbox */
+.DialogCheckbox_Container .DialogCheckbox {
+    border-radius: 50px !important;
+}
+/* Radio Btn */
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
+    transition: .15s !important;
+    background: rgb(var(--bg-dark));
+}
+._7EGqd8bdiXJBd2fj5Hh8r {
+    transition: .15s !important;
+    border-radius: 10px !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow) !important;
+    background: rgb(var(--bg-hover-dark)) !important;
+}
+._7EGqd8bdiXJBd2fj5Hh8r:hover, ._7EGqd8bdiXJBd2fj5Hh8r.gpfocus {
+    background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #fff 10%) !important;
+}
+/* New */
+._2e63TrPvMKVUujM8SUB8X2 {
+    border-radius: 8px !important;
+}
+._2W_HQa5Rhf-hHITgV5H0bu {
+    border-radius: 8px !important;
 }

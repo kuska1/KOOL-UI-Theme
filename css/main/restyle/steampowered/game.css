@@ -84,6 +84,15 @@ img.game_header_image_full {
     transition: .15s !important;
     border-radius: 12px !important;
 }
+.more_btn {
+    transition: .15s !important;
+    border-radius: 4px !important;
+    color: var(--virtualmenu-accent) !important;
+    background: var(--virtualmenu-bg-hover) !important;
+}
+.more_btn:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+}
 
 /* video */
 .highlight_movie_marker {
@@ -152,6 +161,9 @@ img.game_header_image_full {
     background: color-mix(in srgb, rgb(var(--bg-hover-dark)), #000 30%) !important;
     border-radius: 12px !important;
 }
+.mature_content_notice {
+    border-radius: 12px !important;
+}
 /* Game */
 .game_area_dlc_bubble {
     border-radius: 12px !important;
@@ -175,6 +187,18 @@ img.game_header_image_full {
 /* Curator */
 .friend_block_holder.curator img {
     border-radius: 6px !important;
+}
+/* Wants */
+.friend_blocks_twoxtwo .friend_block_holder {
+    transition: .15s !important;
+    border-radius: 50px !important;
+    height: 35px !important;
+}
+.friend_blocks_twoxtwo .friend_name {
+    margin-top: 10px !important;
+}
+.friend_blocks_twoxtwo .friend_block_holder:hover {
+    background: rgba(var(--text-hover-dark), 0.1) !important;
 }
 /* Try also */
 .franchise_notice {
@@ -273,6 +297,15 @@ h2 span.note a:hover em {
 }
 .dlc_highlight_reason {
     background: var(--virtualmenu-accent) !important;
+}
+.bundle_contents_preview {
+    border-radius: 12px !important;
+}
+.bundle_contents_preview img {
+    border-radius: 6px !important;
+}
+.game_area_purchase_game p.package_contents a:not(:last-child), .game_area_offsite_purchase p.package_contents a:not(:last-child) {
+    margin-right: 5px !important;
 }
 /* Curator Says */
 .steam_curator_icon img {
@@ -458,4 +491,43 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {
 }
 .ico16.reportv6 {
     filter: grayscale(1) !important;
+}
+
+/* Hover */
+.game_hover_box {
+    filter: var(--bg-shadow) !important;
+    background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 10%) !important;
+}
+.game_hover_box h4.hover_title, .game_hover_box p, .game_hover_box {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+.game_hover_box .hover_release {
+    color: color-mix(in srgb, rgb(var(--text-dark)), #fff 50%) !important;
+}
+.game_hover_box .hover_body {
+    color: color-mix(in srgb, rgb(var(--text-dark)), #fff 60%) !important;
+}
+.hover_body .hover_review_summary {
+    border-radius: 12px !important;
+    background: unset !important;
+    text-align: right !important;
+}
+.hover_body .hover_review_summary .title {
+    display: none;
+}
+.hover_category_icon {
+    margin-top: 2px !important;
+    margin-left: -1px !important;
+}
+.game_hover .hover_arrow_left, .game_hover .hover_arrow_right {
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#313234" d="M12 1.25a3.16 3.16 0 0 0-2.235.926L2.177 9.765a3.16 3.16 0 0 0 0 4.47l7.588 7.588a3.16 3.16 0 0 0 4.47 0l7.588-7.588a3.16 3.16 0 0 0 0-4.47l-7.588-7.588A3.16 3.16 0 0 0 12 1.25" /></svg>') no-repeat top !important;
+}
+.hover_details_block {
+    border-radius: 50px !important;
+    float: left;
+    width: 21px !important;
+    height: 21px !important;
+}
+.hover_screenshots .screenshot  {
+    border-radius: 12px !important;
 }

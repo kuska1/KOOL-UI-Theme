@@ -1,3 +1,6 @@
+.responsive_page_template_content {
+    overflow: hidden !important;
+}
 /* Btns */
 .btnv6_blue_hoverfade {
     border-radius: 10px !important;

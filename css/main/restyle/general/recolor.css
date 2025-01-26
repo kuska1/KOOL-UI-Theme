@@ -54,7 +54,7 @@ div.ModalPosition_TopBar {
     fill: rgb(var(--main-accent));
 }
 /* 2x Arrow down */
-.BRmrC-jnwpXqye4oYB21C button.DialogButton {
+.BRmrC-jnwpXqye4oYB21C button.DialogButton svg path {
     fill: rgb(var(--main-accent));
 }
 /* More themes */
@@ -76,8 +76,9 @@ div.ModalPosition_TopBar {
     color: rgb(var(--main-accent));
 }
 /* Button */
-.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
-    background-image: radial-gradient(color-mix(in srgb, rgb(var(--main-accent)), #fff 30%), rgb(var(--main-accent)));
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover, .HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm)._3-_jME_xsuvgT3Dvq4bw_q:hover {
+    /* background-image: radial-gradient(color-mix(in srgb, rgb(var(--main-accent)), #fff 30%), rgb(var(--main-accent))); */
+    background: rgb(var(--main-accent)) !important;
 }
 /* Dialog Btn */
 button.DialogButton.Primary, button.DialogButton.Primary:hover {

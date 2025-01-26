@@ -1,0 +1,23 @@
+/* Border Hover Fix */
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2MPpwm3uMppV0DPtkN4Pp_, .skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2YbSwspXZ90_vgzS5O3X4F {
+    background-size: contain;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transition-property: transform;
+    transform-origin: 50% 50%;
+    -moz-transition-duration: .4s;
+    -moz-transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    -moz-transition-property: transform;
+    -moz-transform-origin: 50% 50%;
+    transition-property: transform, filter;
+}
+
+/* List BG */
+._2MFEYjLdT-bfsz3n1hkGnf, ._1TX8MTfNTg-C5c8w44F6aZ, ._3YNnWUgHCZcVvmfX9qpOQ {
+    border-radius: 24px !important;
+}
+.go6jLpmJlgzmvSwdeqLFv {
+    border-radius: 24px !important;
+    box-shadow: unset !important;
+    filter: var(--bg-shadow)
+}

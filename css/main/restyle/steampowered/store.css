@@ -247,7 +247,9 @@ body.v6 .store_nav .popup_block_new .popup_body.search_v2 {
     filter: var(--bg-shadow) !important;
 }
 .home_page_content.takeunder a:hover {
-    box-shadow: 0 0 10px rgb(var(--text-hover-dark)) !important;
+    /* box-shadow: 0 0 10px rgb(var(--text-hover-dark)) !important; */
+    box-shadow: unset !important;
+    transform: scale(1.03) !important;
 }
 /* Spotlight */
 .carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
@@ -405,6 +407,7 @@ body.v6 .broadcast_live_stream_icon {
     color: rgb(var(--text-hover-dark)) !important;
     background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 10%) !important;
 }
+
 /* Curator Recommends */
 .curator_giant_capsule {
     border-radius: 24px !important;
@@ -491,6 +494,7 @@ body.v6 .broadcast_live_stream_icon {
     background: rgb(var(--text-hover-dark)) !important;
 }
 #tab_preview_container {
+    border-radius: 6px !important;
     background: rgb(var(--text-hover-dark)) !important;
 }
 .tab_item_name {
@@ -516,6 +520,15 @@ body.v6 .broadcast_live_stream_icon {
 .btnv6_white_transparent > span {
     transition: .15s !important;
     border-radius: 6px !important;
+}
+.tab_review_summary {
+    color: rgb(var(--bg-hover-dark)) !important;
+    padding: unset !important;
+    background: unset !important;
+}
+.tab_review_summary .title {
+    display: none !important;
+    margin-bottom: 0px !important;
 }
 /* Updates And Offers */
 .home_marketing_message, .home_marketing_message:hover {

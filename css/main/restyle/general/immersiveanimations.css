@@ -1,0 +1,86 @@
+@keyframes OpacityScale {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes OpacityGreyscaleBlur {
+    0% {
+        opacity: 0;
+        filter: grayscale(1) blur(5px);
+    }
+    100% {
+        opacity: 1;
+        filter: grayscale(0) blur(0px);
+    }
+}
+@keyframes OpacityLeft2Right {
+    0% {
+        opacity: 0;
+        transform: translateX(-140px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes OpacityRight2RLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(140px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes OpacityRotateX360Scale {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) rotateX(360deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotateX(0deg);
+    }
+}
+/* Library Items (Game, News) */
+._1pwP4eeP1zQD7PEgmsep0W, .B-vCdL38RiJlhfSRgZv78 ._1-W_ZQ4XyImc86SJFamGha {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityScale;
+}
+/* Game Logo */
+._3NBxSLAZLbbbnul8KfDFjw {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityScale;
+}
+/* LIke pls */
+._2SAb6geDpe6toA1GaP0GjH {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityScale;
+}
+/* Summary */
+._2MKO5j24KqDdD-92hH5FXi {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityScale;
+}
+/* Game Bg */
+.HNbe3eZf6H7dtJ042x1vM {
+    animation: 0.7s ease-in-out 0s 1 OpacityGreyscaleBlur;
+}
+/* Updates */
+._1AYE16384J_ecLpN0sEYc5, ._39Zk32AvV5cr6g-83IVRVS {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityLeft2Right;
+}
+/* Etc */
+.UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityLeft2Right;
+}
+/* Right Boxes */
+._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityRight2RLeft;
+}
+/* Play */
+._1FnJ6dPuknQFQ2RTpKTI16 {
+    animation: 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 OpacityRotateX360Scale;
+}

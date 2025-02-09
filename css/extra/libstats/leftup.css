@@ -1,0 +1,20 @@
+@import url("common.css");
+:root {
+    --lib-custom-ov-left-offset: 6px;
+}
+._1YbtIWcfkQJOysLXQbwzRf {
+    position: fixed !important;
+    top: 6px !important;
+    left: 6px !important;
+    animation: 0.7s ease-out 0s 1 slideLibInLeft;
+}
+@keyframes slideLibInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

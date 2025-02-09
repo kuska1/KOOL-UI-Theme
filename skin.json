@@ -3,7 +3,7 @@
     "author": "flowird",
     "description": "Cool Theme for Steam with some Features.",
     "tags": ["kool", "ui", "kool-ui", "koolui"],
-    "version": "1.1.2",
+    "version": "1.1.0",
     "header_image": "https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true",
 
@@ -17,10 +17,64 @@
     "UseDefaultPatches": true,
 
     "Conditions": {
+        "Developer's Website": {
+            "description": "https://kuska1.github.io",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Donate TON": {
+            "description": "UQCjr2nsCGyvR0IflipAGTmo7jHWac9kRlLKL04Zyi2PEAjY",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Donate USDT": {
+            "description": "UQCjr2nsCGyvR0IflipAGTmo7jHWac9kRlLKL04Zyi2PEAjY",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Donate SOL": {
+            "description": "GyenC86ZKibYfNLn7E2MGfm8C8kKMuoAkmP4Hv2MbcRH",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Donate ETH": {
+            "description": "0xC3ad0226eAac434819C94a2C9470CE654D518F0a",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Donate BCH": {
+            "description": "bc1qv3jd9cy09zmcmhtxfxm8j7shu54rw7t3flax2f",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
         "Recolor Accent Color": {
             "description": "Change Steam's Default Color to your Accent Color.",
             "default": "yes",
-            "tab": "General",
+            "tab": "Interface",
             "values": {
                 "yes": {
                     "TargetCss": {
@@ -33,7 +87,7 @@
         "Remove Header Line": {
             "description": "Remove Header Line on Steam Focus.",
             "default": "no",
-            "tab": "General",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -46,7 +100,7 @@
         "Gradient Background Header": { 
             "description": "Add Gradient Background Header to Modal Dialog.",
             "default": "yes",
-            "tab": "General",
+            "tab": "Interface",
             "values": {
                 "yes": {
                     "TargetCss": {
@@ -59,7 +113,7 @@
         "Avatar Border Style": {
             "description": "Change Avatar Border Style to Square/Squircle/Round.",
             "default": "Round",
-            "tab": "General",
+            "tab": "Interface",
             "values": {
                 "Square": {},
                 "Rounded Square": {
@@ -74,10 +128,10 @@
                 }
             }
         },
-        "Indicator Style": { 
+        "Indicator Style": {
             "description": "Change Avatar Border Style to Square/Squircle/Round.",
             "default": "Dot",
-            "tab": "General",
+            "tab": "Interface",
             "values": {
                 "Circle": {
                     "TargetCss": {
@@ -94,7 +148,7 @@
         "Navigation Bar Items": { 
             "description": "Change Navigation Bar Items Style.",
             "default": "Pillow",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "None": {
 				    "TargetCss": {
@@ -117,7 +171,7 @@
         "Navigation Bar Arrows": {
             "description": "Show/Hide Navigation Bar Arrows.",
             "default": "Hide",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "Show": {},
                 "Hide": {
@@ -130,7 +184,7 @@
         "Steam Title": {
             "description": "Show/Hide Steam Title on Navigation Bar.",
             "default": "Show",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "Show": {},
                 "Hide": {
@@ -143,7 +197,7 @@
         "News": {
             "description": "Show/Hide News Button on Navigation Bar.",
             "default": "Show",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "Show": {},
                 "Hide": {
@@ -156,7 +210,7 @@
         "Notification": { 
             "description": "Show/Hide Notification Button on Navigation Bar.",
             "default": "Show",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "Show": {},
                 "Hide": {
@@ -169,7 +223,7 @@
         "Manage Account": {
             "description": "Show/Minimize/Hide Manage Account Button on Navigation Bar.",
             "default": "Show",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "Show": {},
                 "Minimize": {
@@ -187,7 +241,7 @@
         "Big Picture Mode": {
             "description": "Show/Hide Big Picture Mode Button on Navigation Bar.",
             "default": "Show",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "Show": {},
                 "Hide": {
@@ -289,7 +343,7 @@
                 }
             }
         },
-        "Big Hover Animation": { 
+        "Big Hover Animation": {
             "description": "Change Animation on Big Game Hover.",
             "default": "Default",
             "tab": "Library",
@@ -337,6 +391,99 @@
                 }
             }
         },
+        "More Buttons on Game Page": {
+            "description": "Show/Compact/Hide More Buttons Section.",
+            "default": "Compact",
+            "tab": "Library",
+            "values": {
+                "Show": {},
+                "Compact": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libmorebtn/compact.css"
+                    }
+                },
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libmorebtn/hide.css"
+                    }
+                }
+            }
+        },
+        "Play Info Position": { 
+            "description": "Change Position of Play Info.",
+            "default": "Right Top",
+            "tab": "Library",
+            "values": {
+                "Default": {},
+                "Left Top": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libstats/leftup.css"
+                    }
+                },
+                "Right Top": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libstats/rightup.css"
+                    }
+                }
+            }
+        },
+        "From Family Library Label Position": { 
+            "description": "Change Position of 'From Family Library' Label.",
+            "default": "Left Top",
+            "tab": "Library",
+            "values": {
+                "Default": {},
+                "Left Top": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libcopy/leftup.css"
+                    }
+                },
+                "Right Top": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libcopy/rightup.css"
+                    }
+                }
+            }
+        },
+        "Play Info & Label Background": { 
+            "description": "Change Background of Play Info and 'From Family Library' Label.",
+            "default": "Semi-Transparent",
+            "tab": "Library",
+            "values": {
+                "Solid": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libstats/solid.css"
+                    }
+                },
+                "Semi-Transparent": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libstats/semitransparent.css"
+                    }
+                },
+                "Transparent": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libstats/transparent.css"
+                    }
+                }
+            }
+        },
+        "Scroll to Top Position": { 
+            "description": "Change Position of Scroll to Top button.",
+            "default": "Center",
+            "tab": "Library",
+            "values": {
+                "Center": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/scrolltotopcenter.css"
+                    }
+                },
+                "Right": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/scrolltotopright.css"
+                    }
+                }
+            }
+        },
         "URL Position": {
             "description": "Change Position of URL Bar.",
             "default": "Left",
@@ -350,7 +497,7 @@
                 }
             }
         },
-        "URL Visibility": { 
+        "URL Visibility": {
             "description": "Show/Hide URL Bar.",
             "default": "Show",
             "tab": "Browser",
@@ -585,6 +732,36 @@
 					}
 				},
                 "no": {}
+            }
+        },
+        "Immersive Animations to Library": {
+            "description": "Add Immersive Animations to Library. [Will be more customizable in future]",
+            "default": "yes",
+            "tab": "Performance",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/restyle/general/immersiveanimations.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Disable Transitions": {         
+            "description": "[PLACEHOLDER]",
+            "default": "no",
+            "tab": "Performance",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/performance/transitionson.css"
+                    }
+                },
+                "no": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/performance/transitionsoff.css"
+                    }
+                }
             }
         },
         "Badges for Contributes": { 

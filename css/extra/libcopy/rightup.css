@@ -1,0 +1,33 @@
+@import url("common.css");
+.z8GYwNt_nbBZrf7OVjs-s {
+    position: fixed !important;
+    top: calc(var(--lib-custom-ov-right-offset, 1px) * 10 - 4px) !important;
+    right: 6px !important;
+    margin-top: unset !important;
+    color: rgb(var(--text-dark)) !important;
+    animation: 0.7s ease-out 0s 1 slideLibInRight;
+}
+.z8GYwNt_nbBZrf7OVjs-s ._2g3Gley034M1ZGhcq005s {
+    position: fixed !important;
+    top: 48px !important;
+    right: 0px !important;
+    animation: 0.7s ease-out 0s 1 slideLibInRight;
+}
+.z8GYwNt_nbBZrf7OVjs-s ._2JDxKAxAyMq_yK9Epo_hB3 {
+    position: fixed !important;
+    top: 50px !important;
+    right: 150px !important;
+}
+@keyframes slideLibInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.z8GYwNt_nbBZrf7OVjs-s ._2JDxKAxAyMq_yK9Epo_hB3 .Panel {
+    order: 1 !important;
+}

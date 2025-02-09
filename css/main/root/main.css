@@ -1,5 +1,5 @@
 :root {
-    --bg-shadow: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.25));
+    --bg-shadow: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.5));
 
     --bg-dark: 26, 27, 29;
     --bg-hover-dark: 43, 44, 46;

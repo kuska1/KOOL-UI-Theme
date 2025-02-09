@@ -164,6 +164,10 @@ img.game_header_image_full {
 .mature_content_notice {
     border-radius: 12px !important;
 }
+.queue_controls_description {
+    border-bottom-left-radius: 12px !important;
+}
+
 /* Game */
 .game_area_dlc_bubble {
     border-radius: 12px !important;
@@ -180,12 +184,51 @@ img.game_header_image_full {
 .game_purchase_action_bg {
     border-radius: 6px !important;
 }
+/* Early Access */
+div.early_access_header {
+    border-color: color-mix(in srgb, rgb(var(--bg-dark)), #fff 20%) !important;
+    border-radius: 12px !important;
+}
+div.early_access_header .heading {
+    color: rgb(var(--text-hover-dark)) !important;
+    background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 20%) !important;
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+}
+div.early_access_header .heading a {
+    transition: .15s !important;
+    color: var(--virtualmenu-accent) !important;
+}
+div.early_access_header .heading a:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+div.early_access_header .devnotes .morebutton {
+    transition: .15s !important;
+    color: rgb(var(--text-dark)) !important;
+    background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 20%) !important;
+    border-bottom-left-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+}
+div.early_access_header .devnotes .morebutton:hover {
+    color: rgb(var(--text-hover-dark)) !important;
+}
+div.early_access_banner {
+    border-radius: 12px !important;
+    background: color-mix(in srgb, rgb(var(--bg-dark)), #fff 20%) !important;
+    box-shadow: 1px 0px 25px 5px color-mix(in srgb, rgb(var(--bg-dark)), #fff 20%) !important;
+}
+div.early_access_banner > .img {
+    filter: grayscale(1) !important;
+}
 /* Similar */
 .similar_recent_apps_container > a > img {
     border-radius: 12px !important;
 }
 /* Curator */
-.friend_block_holder.curator img {
+.referring_curator {
+    border-radius: 12px !important;
+}
+.friend_block_holder.curator img, .referring_curator .avatar, .referring_curator .avatar img {
     border-radius: 6px !important;
 }
 /* Wants */
@@ -282,6 +325,36 @@ h2 span.note a:hover em {
 }
 .game_purchase_discount_countdown {
     color: var(--virtualmenu-accent) !important;
+}
+/* Package */
+.game_area_purchase_game div.package_contents_capsules_ctn {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 12px !important;
+}
+div.package_contents_capsule a {
+    border-radius: 12px !important;
+}
+.game_area_purchase_game div.package_contents_capsules.package_contents_collapsed::after {
+    border-radius: 12px !important;
+}
+div.package_contents_capsule, .game_area_purchase_game div.package_contents_collapsed.package_contents_capsules div.package_contents_capsule {
+    transition: .15s !important;
+    /* box-shadow: unset !important; */
+    filter: var(--bg-shadow) !important;
+    border-radius: 12px !important;
+}
+.package_contents_capsule {
+    transition: .15s !important;
+}
+.package_contents_capsule img {
+    transition: .15s !important;
+}
+.package_contents_capsule:hover {
+    transform: scale(1.1) !important;
+}
+.package_contents_capsule:has(~ .package_contents_capsule:hover):not(:hover) img,
+.package_contents_capsule:hover ~ .package_contents_capsule:not(:hover) img {
+    filter: blur(1px) opacity(0.8) !important;
 }
 /* DLC */
 .game_area_dlc_row .capsule_container img {
@@ -506,6 +579,12 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {
 }
 .game_hover_box .hover_body {
     color: color-mix(in srgb, rgb(var(--text-dark)), #fff 60%) !important;
+}
+.hover_details_block, .hover_details_block_full {
+    background: unset !important;
+}
+.hover_category_icon img {
+    border-radius: 50% !important;
 }
 .hover_body .hover_review_summary {
     border-radius: 12px !important;

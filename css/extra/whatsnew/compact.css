@@ -31,6 +31,9 @@
 ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
     transition: .15s !important;
     color: rgb(var(--text-dark)) !important;
+    padding: 8px !important;
+    border-radius: 12px !important;
+    background: rgb(var(--bg-hover-dark)) !important;
 }
 .aqYQCF7Ny9x3EKcjCOTRY:hover ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
     color: rgb(var(--text-hover-dark)) !important;

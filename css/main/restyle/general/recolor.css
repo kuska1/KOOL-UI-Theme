@@ -166,10 +166,6 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 ._1J21tLst5SEhBPkVRT53UV {
     color: color-mix(in srgb, rgb(var(--main-accent)), #fff 60%);
 }
-._1J21tLst5SEhBPkVRT53UV div {
-    background: unset !important;
-    background-color: rgb(var(--main-accent)) !important;
-}
 ._1J21tLst5SEhBPkVRT53UV:hover._28ZR8gHitOrJaSLxcIAl2p {
     filter: unset !important;
     color: #fff !important;

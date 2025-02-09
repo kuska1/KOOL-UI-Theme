@@ -4,3 +4,22 @@
     top: unset !important;
     left: unset !important;
 }
+._1mDAVT4sTzFRwJtlKCw2Ws > div {
+    transition: .15s !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    animation: 0.7s ease-in-out 0s 1 ElementsAnim;
+}
+._1kiZKVbDe-9Ikootk57kpA ._1tIg-QIrwMNtCm7NcYADyi {
+    min-width: 30px !important;
+}
+@keyframes ElementsAnim {
+    0% {
+        opacity: 0;
+        max-width: 0px;
+    }
+    100% {
+        opacity: 1;
+        max-width: 180px;
+    }
+}

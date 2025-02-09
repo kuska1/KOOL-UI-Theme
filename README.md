@@ -9,7 +9,7 @@
 <div align="center">
 
 # KOOL-UI
-### Cool Theme for Steam with Millenium with some Features.
+### Cool Theme for Steam (Millenium) with some Features.
 
 ## Screenshots
 ![Library](https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true)
